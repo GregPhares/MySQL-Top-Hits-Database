@@ -1,0 +1,24 @@
+create table tracks
+(
+tr_id int primary key auto_increment,
+tr_title varchar(200) not null,
+tr_year char(4) not null,
+tr_yearlyrank char(4) not null, 
+tr_source char(1),
+tr_weeksCH int not null default 0, 
+tr_weeks40 int not null default 0, 
+tr_weeks10 int not null default 0,
+tr_weekspeak int not null default 0, 
+tr_highest int not null default 100,
+tr_artist_id int not null, 
+tr_time varchar(6), 
+tr_symbol varchar(6) not null, 
+tr_label_id int not null, 
+tr_labnum varchar(10) not null,
+tr_comment varchar(250), 
+tr_bpm int, 
+tr_dateentered date not null, 
+tr_datepeaked date not null,
+constraint tr_artist_fk foreign key (tr_artist_id) references people(p_id),
+constraint tr_label_fk foreign key(tr_label_id) references label(lb_id)
+); 

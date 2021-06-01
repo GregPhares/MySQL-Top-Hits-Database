@@ -1,0 +1,10 @@
+create table wrote
+(
+  wr_track_id int not null,
+  wr_seq int not null,
+  wr_p_id int not null,
+  PRIMARY KEY (wr_track_id, wr_seq),
+  CONSTRAINT wr_track_fk FOREIGN KEY (wr_track_id) REFERENCES tracks(tr_id),
+  CONSTRAINT wr_people_fk FOREIGN KEY (wr_p_id) REFERENCES people(p_id)
+);
+

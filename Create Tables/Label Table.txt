@@ -1,0 +1,5 @@
+create table label
+(
+lb_id int primary key auto_increment,
+lb_name varchar(30) not null
+);

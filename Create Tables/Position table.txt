@@ -1,0 +1,9 @@
+create table position
+(
+  po_track_id int not null,
+  po_week int not null,
+  po_date date not null,
+  po_pos int not null,
+  PRIMARY KEY (po_track_id, po_week),
+  CONSTRAINT po_track_fk FOREIGN KEY (po_track_id) REFERENCES tracks(tr_id)
+);

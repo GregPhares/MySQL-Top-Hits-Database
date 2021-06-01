@@ -1,0 +1,4 @@
+create table people (
+p_id int primary key auto_increment, 
+person varchar (100) not null 
+);
