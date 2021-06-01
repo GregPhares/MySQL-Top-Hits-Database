@@ -1,0 +1,3 @@
+insert into label(lb_name)
+select distinct label from top100
+where label is not null;
