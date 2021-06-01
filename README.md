@@ -15,7 +15,8 @@
 ![lofi](https://github.com/GregPhares/MySQL-Top-Hits-Database/blob/main/ERD%20database.PNG)
 
 [Go To TOP](#TOP)
-## Table Creation [_Build Tables_](https://github.com/GregPhares/MySQL-Top-Hits-Database/tree/main/Create%20Tables)
+## Table Creation
+[_Create Tables _](https://github.com/GregPhares/MySQL-Top-Hits-Database/tree/main/Create%20Tables)
 #### Label ####
 ![lofi](https://github.com/GregPhares/MySQL-Top-Hits-Database/blob/main/Label%20Table%20Describe.PNG)
 [_Script_](https://github.com/GregPhares/MySQL-Top-Hits-Database/blob/main/Create%20Tables/Label%20Table.txt)
