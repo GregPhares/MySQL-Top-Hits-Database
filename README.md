@@ -8,10 +8,10 @@
 * [Queries](#queries)
 
 ## ERD 
-> The Top100 (Master) Table will hold all the data that is necessary data needed to create the functioning database.
+- The Top100 (Master) Table will hold all the data that is necessary data needed to create the functioning database.
 ![lofi](https://github.com/GregPhares/MySQL-Top-Hits-Database/blob/main/Img/Master%20data%20table.PNG)
 
-> The following is the ERD for loaded database. Once all the data is loaded from the Top100, it will opperate without Top100.
+- The following is the ERD for loaded database. Once all the data is loaded from the Top100, it will opperate without Top100.
 ![lofi](https://github.com/GregPhares/MySQL-Top-Hits-Database/blob/main/Img/ERD%20database.PNG)
 
 [Go To TOP](#TOP)
