@@ -115,7 +115,7 @@ and (tr_artist_id = p_id) order by po_pos asc;
 ```
 
 
-10. 
+10. To show what songs having a TRACK YEAR = 1968 got their highest position in the Top 10, but never got into the Top 5
 ```
 select tr_title, person, tr_datepeaked, tr_highest from people, tracks 
 where (tr_highest between 6 and 10) 
